@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+    *{
+      margin: 0%;
+      padding: 0%;
+    }
+    body{ 
+      background-color:hsl(212, 45%, 89%);
+      
+    }
+    .m{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box{
+      background-color: hsl(0, 0%, 100%);
+      width: 205px;
+      height: 320px;
+      padding: 10px;
+      border-radius: 7px;
+    }
+    img{
+      height: 205px;
+      width: 205px;
+      border-radius: 7px;
+    }
+    p{
+      text-align: center;
+      margin: 7px;
+      font-family: 'Outfit', sans-serif;
+      /* font-family: 'Roboto Mono', monospace; */
+    }
+    #heading{
+      color: hsl(218, 44%, 22%);
+      font-size: 15px;
+      font-weight: 700;
+    }
+    #desc{
+      font-size: 12px;
+      font-weight: 400;
+      color: hsl(220, 15%, 55%); 
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="m">
+  <div class="box">
+    <img src="./images/image-qr-code.png" alt="">
+    <p id="heading">Improve your front-end skills by building projects </p>
+    <p id="desc">scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+</div>
+ 
+  <footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tapan Sahu</a>.
+  </div>
+</footer>
+</body>
+</html>
